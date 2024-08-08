@@ -1,0 +1,44 @@
+.sun{
+    height:100px;
+    width:100px;
+    background-color: orange;
+    border-radius:50%;
+    margin-bottom: 200px;
+    z-index: 1;
+}
+
+section{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.water{
+    height:30px;
+    width:100%;
+    background-color:blue
+}
+
+@media (max-width: 1024px) {
+    body{
+        margin:0 auto !important;
+    padding: 0 auto !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body{
+        margin:0 auto !important;
+    padding: 0 auto !important;
+    }
+  }
+  @media (max-width:1680px){
+    body{
+        margin:0 auto !important;
+    padding: 0 auto !important;
+    }
+
+  }
+
+  body{
+    font-size:2em;
+  }
